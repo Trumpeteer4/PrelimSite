@@ -1,0 +1,427 @@
+/* this is where all of your CSS styles go */
+body {
+	background-image: url("images/frenchstucco.png");
+  margin: 0;
+}
+@font-face {
+    font-family: Baskerville;
+    src: url("fonts/Baskerville.ttc");
+    font-family: Avenir;
+    src: url("fonts/Avenir.ttc");
+}
+
+.header {
+	text-align: right;
+  float: right;
+  margin-right: 50%;
+  margin-top: 45px;
+  font-family: Baskerville;
+  font-size: 100pt;
+  opacity: 0.77;
+  line-height: 90%;
+}
+
+
+.titleborder {
+  border-style: solid;
+  border-top-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  margin-top: 160px;
+  opacity: 0.77;
+  width: 600%;
+  height: 230px;
+}
+
+
+.btn {
+  display: block;
+  width: 140px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.circlenav {
+  position: relative;
+  float: right;
+  top: 320px;
+  width: 140px;
+}
+
+.circle1 {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: black;
+  float: right;
+}
+
+.mystory {
+  margin-right: 5px;
+  float: right;
+  font-size: 18pt;
+  font-family: Avenir;
+  margin: -4px 5px 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+.circle2 {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: black;
+  float: right;
+}
+
+.yourstory {
+  margin-right: 5px;
+  float: right;
+  font-size: 18pt;
+  font-family: Avenir;
+  margin: -4px 5px 0 0;
+  text-decoration: none;
+  color: black;
+
+}
+
+.circle3 {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: black;
+  float: right;
+}
+
+.archive {
+  margin-right: 5px;
+  float: right;
+  font-size: 18pt;
+  font-family: Avenir;
+  margin: -4px 5px 0 0;
+  text-decoration: none;
+  color: black;
+
+}
+
+.bagel {
+  text-align: left;
+  float: left;
+  margin-left: 50%;
+  margin-top: 370px;
+  font-family: Baskerville;
+  font-size: 160pt;
+  color:rgb(0,196,15);
+}
+
+.bagelstory {
+  text-align: left;
+  float: left;
+  width: 300px;
+  margin-top: 820px;
+  margin-left: 150%;
+  font-family: Avenir;
+  font-size: 14pt;
+
+}
+
+.bagelimg {
+  float: left;
+  margin-left: -165%;
+  margin-top: 540px;
+}
+
+.curr {
+  text-align: left;
+  float: left;
+  margin-left: 80%;
+  margin-top: 10%;
+  font-family: Baskerville;
+  font-size: 200pt;
+  color:rgb(0,178,251);
+}
+
+.ate {
+  text-align: left;
+  float: left;
+  margin-left: 80%;
+  margin-top: -150%;
+  font-family: Baskerville;
+  font-size: 200pt;
+  color:rgb(0,178,251);
+}
+
+.archtitle {
+    width: 200px;
+    float: left;
+}
+
+.archborder {
+  border-style: solid;
+  float: right;
+  border-top-width: 5px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  margin-top: -17%;
+  margin-left: 26%;
+  opacity: 0.77;
+  width: 65%;
+  height: 10px;
+}
+.platebox {
+  margin-top: -140%; 
+  margin-left: 300%;
+  margin-right: 20px;
+  width: 600%;
+  height: 300%;
+}
+.smallplate {
+  float: left;
+
+}
+
+.medplate {
+  position: relative;
+  float: right;
+  margin-top: 115%;
+  margin-right: -175%;
+  z-index: 3;
+
+}
+
+.cerealbw {
+  float: left;
+  position: relative;
+  transform: rotate(95deg);
+  margin-top: -145%;
+  margin-left: 518%;
+  z-index: 3;
+}
+
+.bagelbw {
+  position: relative;
+  margin-top: -240%;
+  margin-left: -339%;
+}
+
+.narr {
+  text-align: left;
+  float: left;
+  margin-left: 80%;
+  margin-top: 10%;
+  font-family: Baskerville;
+  font-size: 200pt;
+  color:rgb(0,178,251);
+}
+
+.ate2 {
+  text-align: left;
+  float: left;
+  margin-left: 80%;
+  margin-top: -150%;
+  font-family: Baskerville;
+  font-size: 200pt;
+  color:rgb(0,178,251);
+}
+
+.storynav {
+
+}
+
+
+/*  SECTIONS  */
+.section {
+  margin: auto;
+	clear: both;
+  width: 90%;
+	padding: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+  width: 11.45%;
+	float:left;
+	margin: 0 0 1% 1.2%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+  	width: 87.35%;
+}
+
+.span_6_of_8 {
+  	width: 74.7%;
+}
+
+.span_5_of_8 {
+  	width: 62.05%;
+}
+
+.span_4_of_8 {
+  	width: 49.4%;
+}
+
+.span_3_of_8 {
+  	width: 36.75%;
+}
+
+.span_2_of_8 {
+  	width: 24.1%;
+}
+
+.span_1_of_8 {
+  	width: 11.45%;
+}
+
+@media screen and (max-width: 780px) {
+
+  .header {
+  text-align: center;
+  width: 500px;
+  margin-top: 34px;
+
+}
+.titleborder {
+  border-left-width: 0;
+  margin-top: 146px;
+  margin-left: -200px;
+  width: 900px;
+  height: 100px;
+}
+
+.circlenav {
+position: relative;
+left: -130px;
+top: 295px;
+  width: 450px;
+}
+
+.circle1 {
+  float: left;
+  margin-left: 150%;
+}
+
+.mystory {
+  position: relative;
+  top: 8px;
+  width: 100px;
+  left: 150px;
+  position: relative;
+
+}
+
+.circle2 {
+  float: left;
+  margin-left: 150%;
+}
+
+.yourstory {
+  width: 120px;
+  top: 8px;
+  left: 155px;
+  position: relative;
+
+}
+
+.circle3 {
+  float: left;
+  margin-left: 150%;
+}
+
+.archive {
+  margin-right: 5px;
+  top: 8px;
+  width: 100px;
+  left: 155px;
+  position: relative;
+
+
+}
+
+
+.btn {
+  float: left;
+}
+
+
+  .bagel {
+  text-align: left;
+  float: left;
+  margin-left: 30%;
+  margin-top: 350px;
+  font-family: Baskerville;
+  font-size: 140pt;
+  color:rgb(0,196,15);
+}
+
+.bagelstory {
+  text-align: left;
+  float: left;
+  width: 250px;
+  margin-top: 720px;
+  margin-left: 0;
+
+}
+
+.bagelimg {
+  float: left;
+  margin-left: -335px;
+  margin-top: 510px;
+}
+
+.bagelbw {
+  display: none;
+}
+
+.medplate {
+  display: none;
+}
+
+.cerealbw {
+  display: none;
+}
+
+#test {
+  margin-top: 430px;
+}
+
+.archborder {
+  float: right;
+  margin-top: -17%;
+  margin-left: 26%;
+  width: 75%;
+}
+
+.archtitle {
+    width: 200px;
+    float: left;
+    margin-left: -120%;
+}
+
+.curr {
+  font-size: 190pt;
+
+}
+
+.ate {
+  font-size: 190pt;
+
+}
+
+}
+
+
